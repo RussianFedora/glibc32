@@ -2,7 +2,7 @@
 Summary: The GNU libc 32-bit libraries.
 Name: glibc32
 Version: 2.11.1
-Release: 1.R
+Release: 2.R
 License: LGPL
 Group: System Environment/Libraries
 Source: http://download.rfremix.ru/storage/glibc32/glibc32-%{version}-%{release}.tar.bz2
@@ -42,6 +42,9 @@ rm -rf "$RPM_BUILD_ROOT"
 /usr/include/*
 
 %changelog
+* Sat Jan 12 2013 Arkady L. Shane <ashejn@russianfedora.ru>
+- added libstdc++
+
 * Fri Feb 24 2012 Arkady L. Shane <ashejn@russianfedora.ru>
 - added zlib and libgcc files
 
