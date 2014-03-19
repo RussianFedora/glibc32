@@ -5,8 +5,7 @@ Version: 2.11.1
 Release: 2.R
 License: LGPL
 Group: System Environment/Libraries
-Source: http://download.rfremix.ru/storage/glibc32/glibc32-%{version}-%{release}.tar.bz2
-Buildroot: %{_tmppath}/glibc-%{PACKAGE_VERSION}-root
+Source: glibc32-%{version}-%{release}.tar.bz2
 ExclusiveArch: x86_64 ppc64
 
 %description
